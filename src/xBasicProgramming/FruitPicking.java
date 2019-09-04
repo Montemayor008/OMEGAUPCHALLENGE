@@ -8,13 +8,13 @@ public class FruitPicking {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int xFrutas = scan.nextInt();
-		int xDias = 0;
-		while (xFrutas % 11 != 1) {
-			xFrutas *=2;
-			xDias++;
+		int xFruits = scan.nextInt();
+		int xDays = 0;
+		while (xFruits % 11 != 1) {
+			xFruits *=2;
+			xDays++;
 		}
-		System.out.println(xDias + " " + xFrutas);
+		System.out.println(xDays + " " + xFruits);
 
 	}
 
